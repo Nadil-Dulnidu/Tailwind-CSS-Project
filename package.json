@@ -9,7 +9,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" : "npx @tailwindcss/cli -i ./src/input.css -o ./build/css/style.css --watch"
+    "dev" : "npx @tailwindcss/cli -i ./src/input.css -o ./build/css/style.css --watch",
+    "prettier" : "npx prettier --write **/*.html"
   },
   "author": "",
   "license": "ISC",
